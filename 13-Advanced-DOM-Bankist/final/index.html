@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankist | When Banking meets Minimalist</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Incluyendo</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operaciones</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonios</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Abrir cuenta</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Cuando los 
+          <!-- Green highlight effect -->
+          <span class="highlight">bancos </span>
+          se vuelven
+          <span class="highlight">sencillos</span>
+        </h1>
+        <h4>Una experiencia de banco simple para llevar una vida sencilla .</h4>
+        <button class="btn--text btn--scroll-to">Aprende mas &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Incluyendo</h2>
+        <h3 class="section__header">
+          Todo lo que nececitas de un banco y mucho mas.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Banco 100% digital</h5>
+          <p>
+            Banco 100% digital, transaciones las 24 horas del dia con equipo de aclaraciones
+            al servicio todos los dias, haremos que nunca en tu vida tengas que 
+            pisar nuestras oficinas.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Mira tu dinero crecer</h5>
+          <p>
+            Con nuestro equipo de expertos invercionistas mira tu dinero 
+            realmente crecer desde la comodidad de tu casa y a un solo click 
+            de tus proximas vacaciones!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Tarjeta de debito gratis!!</h5>
+          <p>
+            Cada cuenta nueva registrada incluye su propia tarjeta de debito gratis
+            entregada sin costo alguno hasta la puerta de tu casa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Todo tan sencillo como posible!, pero no mas sencillo.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Transferencias instantaneas
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Prestamos instantaneos 
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Cierre al instante 
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfiere dinero al instante!, sin cargos!!.
+          </h5>
+          <p>
+            Ofrecemos transferencias a todos los bancos con acreditacion al instante 
+            y lo que es mejor aun sin comicion.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Compra una casa o tus sueños con nuestro sistema de prestamos.
+          </h5>
+          <p>
+            Ofrecemos prestamos sencillos desde cantidades pequeñas hasta altas tu decides el limite
+            , no revisamos tu situacion crediticia aunque deberiamos hacerlo no lo hacemos porque
+            queremos a nuestros usuarios!
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Ya no nececitas tu cuenta?, eliminala facil y rápido.
+          </h5>
+          <p>
+            Si nuestro servico no fue de su agrado puede eliminar su cuenta en cualquier momento
+            y sin repercusion alguna.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millones de banqueros ya estan haciendo sus vidas mas sencillas.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">La decision financiera de su vida!</h5>
+            <blockquote class="testimonial__text">
+              Desde que cambie a este servicio mi vida a cambiado por completo, nunca habia ido tantas 
+              veces de vacaciones gracias al rendimiento de mis inversiones en años!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              El ultimo paso para una vida nueva 
+            </h5>
+            <blockquote class="testimonial__text">
+              Al principio me asuste al ver las facilidades con las que bankist brinda servicios
+              y premia a sus usuarios pero luego me acostumbre, nunca habia estado tan a cuenta 
+              con mis pagos desde que tenia 5 años!.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finalmente libre de los viejos y apestosos bancos!
+            </h5>
+            <blockquote class="testimonial__text">
+              Nunca habia controlado mis finanzas de manera mas sencilla, pase de hacer 
+              horas de fila y de llamadas a servicio a cliente que demoraban horas a ni siquiera 
+              saber si hay un banco de mi banco en la ciudad donde vivo!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          El mejor dia para unirse a bankist es hoy, pero todavia puede unirse pensando en el mañana!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Abre tu cuenta gratis hoy!!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Hacerca de</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Precios</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terminos de uso </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Politica de Privacidad</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Carreras</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contactanos</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Jonas Schmedtmann</a
+        >. Use for learning or your portfolio. Don't use to teach. Don't claim
+        as your own product.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Abre tu cuenta con nosotros <br />
+        en solo  <span class="highlight">5 minutos</span>
+      </h2>
+      <form class="modal__form">
+        <label>Primer nombre</label>
+        <input type="text" />
+        <label>Segundo nombre</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Siguiente paso  &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
